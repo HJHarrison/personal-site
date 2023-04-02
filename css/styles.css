@@ -1,35 +1,69 @@
 body {
-    background-color: #F6E1C3;
+    background-color: #1B262C;
+    text-align: center;
+    font-family: Montserrat, arial, sans-serif;
+    margin: 0;
 }
 
 h1 {
-    color: #E9A178;
+    margin: 0 auto;
+    width: 15%;
+    word-wrap: break-word;
+    font-family: roboto, arial, sans-serif;
 }
 
-h3 {
-    color: #E9A178;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-hr {
-    color: #A84448;
-    border-top: dotted;
-    border-width: 5px 0px 0px 0px;
-    height: 1px;
-    width: 10%;
+.top-container {
+    padding: 5% 5% 0 5%;
+    height: 30em;
+    background-color: #0F4C75;
+    position: relative;
 }
 
-p {
-    color: #A84448;
+.middle-container {
+    padding: 1%;
+    background-color: #3282B8;
+    margin: 0;
 }
 
-th {
-    color: #7A3E65;
+.profile {
+    margin: 0 auto;
+    max-width: 50%;
 }
 
-td {
-    color: #A84448;
+.bottom-container {
+    background-color: #BBE1FA;
 }
 
-strong {
-    color: #7A3E65
+.bottom-cloud {
+    position: absolute;
+    left: 33%;
+    margin: auto;
+    z-index: 2;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    z-index: 2;
+    margin: auto;
+}
+
+.mountain {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#profile-picture {
+    max-width: 100%;
+    border-radius: 50%; /* fallback for older browsers */
+    width: 13%;
+    height: auto; /* make the height adjust automatically to maintain the aspect ratio */
 }
