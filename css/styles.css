@@ -4,12 +4,25 @@ body {
     font-family: Montserrat, arial, sans-serif;
     margin: 0;
 }
-
 h1 {
     margin: 0 auto;
-    width: 15%;
+    width: 100%;
+    font-size: 4rem;
     word-wrap: break-word;
     font-family: roboto, arial, sans-serif;
+}
+
+h2 {
+    font-family: roboto, arial, sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: roboto, arial, sans-serif;
+}
+
+p {
+    font-size: 1.25rem;
 }
 
 img {
@@ -17,9 +30,14 @@ img {
   height: auto;
 }
 
+ul {
+    list-style-position: inside;
+    font-size: 1.25rem;
+}
+
 .top-container {
     padding: 5% 5% 0 5%;
-    height: 30em;
+    height: 40rem;
     background-color: #0F4C75;
     position: relative;
 }
@@ -32,7 +50,8 @@ img {
 
 .profile {
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 75%;
+    padding-bottom: 5%;
 }
 
 .bottom-container {
@@ -41,17 +60,19 @@ img {
 
 .bottom-cloud {
     position: absolute;
-    left: 33%;
+    left: 27%;
     margin: auto;
     z-index: 2;
+    width: 10%;
 }
 
 .top-cloud {
     position: absolute;
     top: 5%;
-    left: 60%;
+    left: 65%;
     z-index: 2;
     margin: auto;
+    width: 10%;
 }
 
 .mountain {
@@ -61,6 +82,13 @@ img {
     transform: translateX(-50%);
 }
 
+.python-skill-image, .html-css-image, .other-skills-image {
+    width: 14%;
+}
+
+.skill-row {
+    padding-bottom: 5%;
+}
 #profile-picture {
     max-width: 100%;
     border-radius: 50%; /* fallback for older browsers */
