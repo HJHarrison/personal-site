@@ -52,8 +52,9 @@ ul {
 }
 
 .middle-container {
-    padding: 1%;
-    margin: 0;
+    padding: 1% 0 3% 0;
+    margin: 0, auto;
+    position: relative;
 }
 
 .profile {
@@ -62,8 +63,32 @@ ul {
     padding-bottom: 5%;
 }
 
+.skills {
+    margin-top: 5%;
+}
+
+.contact-me {
+    margin-top: 4%;
+}
+
+.footer {
+    margin: 10px;
+}
+
 .bottom-container {
     background-color: #BBE1FA;
+    height: 6rem;
+    margin: auto;
+    padding-top: 2.5rem;
+}
+
+.footer-link {
+    margin: 50px 20px 0 20px;
+    color: #11999E;
+    font-family: roboto, arial, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .bottom-cloud {
@@ -107,6 +132,32 @@ ul {
   content: "";
   display: table;
   clear: both;
+}
+
+.line {
+  border-top: 20px dotted #000;
+  width: 10%;
+  margin: auto;
+  top-padding: 50px;
+  border-color: #B0DAFF;
+}
+
+.btn {
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 15px;
+    background: #BBE1FA;
+    text-decoration: none;
+    position: relative;
+    top: 1.5rem;
+}
+
+.btn:hover {
+  background: #DAF5FF;
+  text-decoration: none;
 }
 
 #profile-picture {
