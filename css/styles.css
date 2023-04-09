@@ -1,5 +1,5 @@
 body {
-    background-color: #1B262C;
+    background-color: #DAF5FF;
     text-align: center;
     font-family: Montserrat, arial, sans-serif;
     margin: 0;
@@ -10,15 +10,24 @@ h1 {
     font-size: 4rem;
     word-wrap: break-word;
     font-family: roboto, arial, sans-serif;
+    color: #66BFBF;
+    line-height: 1;
 }
 
 h2 {
     font-family: roboto, arial, sans-serif;
     font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
 h3 {
     font-family: roboto, arial, sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
 }
 
 p {
@@ -32,19 +41,18 @@ img {
 
 ul {
     list-style-position: inside;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
 }
 
 .top-container {
     padding: 5% 5% 0 5%;
     height: 40rem;
-    background-color: #0F4C75;
+    background: linear-gradient(to bottom, #B0DAFF, #B9E9FC);
     position: relative;
 }
 
 .middle-container {
     padding: 1%;
-    background-color: #3282B8;
     margin: 0;
 }
 
@@ -83,12 +91,24 @@ ul {
 }
 
 .python-skill-image, .html-css-image, .other-skills-image {
-    width: 14%;
+    width: 15%;
+    margin-right: 30px;
+    float: left;
 }
 
 .skill-row {
-    padding-bottom: 5%;
+    margin: 100px auto 100px auto;
+    width: 75%;
+    text-align: left;
+    line-height: 2;
 }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 #profile-picture {
     max-width: 100%;
     border-radius: 50%; /* fallback for older browsers */
